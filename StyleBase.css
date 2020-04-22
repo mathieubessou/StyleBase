@@ -1,0 +1,73 @@
+a, abbr, address, article, aside, audio, 
+b, big, blockquote, body, 
+canvas, caption, center, cite, code, 
+dd, del, details, dfn, div, dl, dt, 
+em, embed, 
+fieldset, figcaption, figure, footer, form, 
+h1, h2, h3, h4, h5, h6, header, hgroup, html, 
+i, iframe, img, ins, 
+kbd, 
+label, legend, li, 
+map, mark, 
+nav, 
+ol, output, 
+p, pre, 
+q, 
+s, samp, section, small, span, strike, strong, sub, summary, sup, 
+time, 
+u, ul, 
+var, video 
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+
+body {
+	line-height: 1;
+}
+
+ol {
+	list-style: decimal;
+	padding-left: 2em;
+}
+ul {
+	list-style: disc;
+	padding-left: 2em;
+}
+
+article, aside,
+details, 
+figcaption, figure, footer, 
+header, hgroup, 
+nav, section {
+	display: block;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+table, tbody, td, tfoot, th, thead, tr {
+	margin: 0;
+	padding: 0;
+	border: 1px solid black;
+	font: inherit;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+
+q {
+	quotes: none;
+}
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+a:focus{
+	outline:none;
+}
